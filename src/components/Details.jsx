@@ -15,7 +15,7 @@ export const Details = () => {
 
   return (
     <>
-      <h1 style={{ textAlign: 'center' }}>User Details</h1>
+      <h1 style={{ textAlign: 'center' }}>User Details of employee</h1>
       <Box sx={{ flexGrow: 1, p: 3 }}>
         <Grid2 container spacing={3}>
           {data.map((user) => {
